@@ -15,3 +15,6 @@ config :tdd_app, TddApp.Repo,
   database: "tdd_app_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
+
+config :phoenix_integration,
+  endpoint: TddAppWeb.Endpoint
